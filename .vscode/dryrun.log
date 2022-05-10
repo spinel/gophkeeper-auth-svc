@@ -1,4 +1,0 @@
-make: Entering directory '/home/spinel/my/ya_prakt/gophkeeper/server/gophkeeper-auth-svc'
-protoc pkg/pb/*.proto --go_out=plugins=grpc:.
-make: Leaving directory '/home/spinel/my/ya_prakt/gophkeeper/server/gophkeeper-auth-svc'
- 
