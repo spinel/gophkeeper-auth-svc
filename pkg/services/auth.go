@@ -32,6 +32,7 @@ func (s *Server) Register(ctx context.Context, req *pb.RegisterRequest) (*pb.Reg
 
 	return &pb.RegisterResponse{
 		Status: http.StatusCreated,
+		UserId: user.Id,
 	}, nil
 }
 

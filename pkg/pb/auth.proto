@@ -20,6 +20,7 @@ message RegisterRequest {
 message RegisterResponse {
   int64 status = 1;
   string error = 2;
+  int64 user_id = 3;
 }
 
 // Login

@@ -29,7 +29,6 @@ func main() {
 	}
 
 	lis, err := net.Listen("tcp", c.Port)
-
 	if err != nil {
 		log.Fatalln("Failed to listing:", err)
 	}
